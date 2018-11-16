@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.lemonit.lemix" >
+
+    <application>
+        <activity android:name=".WebActivity"></activity>
+    </application>
+
+</manifest>

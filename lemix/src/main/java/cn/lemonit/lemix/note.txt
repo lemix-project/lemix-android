@@ -1,0 +1,13 @@
+此module:
+插件相关的操作，查找，下载，扫描等等，
+和具体项目逻辑分开
+所以独立出项目写
+
+package:
+
+lemix: 引擎相关的包
+
+
+等待页waitPager，调用者传入，放在LemixEngineConfig对象中, 需要实现一个接口，里面抽象方法是Module信息
+
+执行startUpMixModule（）时，先跳转到等待页，把插件的名称和图片通过intent传递给waitPager，具体怎么用由调用者设计
